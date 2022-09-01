@@ -2,39 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     text-decoration: underline;
 }
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.756);
-    
+
 }
+
 img {
     width: 50%;
 }
+
 .container {
     background-image: url(pizza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.imagecontent{
+
+.imagecontent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: white;
     height: 700px;
- 
+
 }
-.imagecontent p{
+
+.imagecontent p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
 }
-.btn{
+
+.btn {
 
     text-align: center;
     color: white;
@@ -45,6 +53,7 @@ img {
     border-radius: 10000px;
     box-shadow: 0px 5px white;
 }
+
 ul li {
     display: inline-block;
     padding: 1em;
@@ -61,6 +70,7 @@ ul li {
     color: black;
     background: white;
 }
+
 .btn:active {
     transform: translateY(2px);
     box-shadow: 0px 3px white;
@@ -76,7 +86,7 @@ ul li {
 
 
 
-#Menuid{
+#Menuid {
     padding: 20px;
     background-color: black;
     color: white;
@@ -85,94 +95,106 @@ ul li {
     font-size: 50px;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
 }
 
-.btn:hover a{
+.btn:hover a {
     color: black;
 }
 
-.MainMenu{
+.MainMenu {
     background-color: black;
     padding: 76px;
 }
-.Menu{ 
+
+.Menu {
     border: 2px solid rgb(68, 68, 68);
 }
+
 .Menunav {
-    display:flex;
+    display: flex;
     height: 4rem;
 }
 
-.Pizza{
+.Pizza {
     background: red;
     color: white;
-    width: 100%;  
+    width: 100%;
     text-align: center;
     padding: 20px;
     font-size: 23px;
 }
-.Pasta{
+
+.Pasta {
     color: white;
-    width: 100%;  
+    width: 100%;
     text-align: center;
     padding: 20px;
     font-size: 23px;
 
 }
-.Pasta a{
+
+.Pasta a {
     width: 100%;
     height: 100%;
     display: block;
 }
-.Starters{
+
+.Starters {
     color: white;
-    width: 100%;  
+    width: 100%;
     text-align: center;
     padding: 20px;
     font-size: 23px;
 
 }
-.Pasta:hover{
-    background-color: red;  
+
+.Pasta:hover {
+    background-color: red;
 }
-.Starters:hover{
-    background-color: red;  
+
+.Starters:hover {
+    background-color: red;
 }
-.margherita{
+
+.margherita {
     background-color: white;
     color: black;
     height: 5em;
     border-bottom: 2px solid rgb(164, 163, 163);
     height: 150px;
 }
-.right{
+
+.right {
     float: right;
     border: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(129, 127, 127);
     padding: 10px;
 }
-.left{
+
+.left {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
     font-size: 26px;
 }
-.bottom{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(127, 122, 122);
-        font-size: 24px;
-        padding-top: 50px;
+
+.bottom {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(127, 122, 122);
+    font-size: 24px;
+    padding-top: 50px;
 }
 
-.leftMeat{
+.leftMeat {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
     font-size: 26px;
     display: inline-block;
 }
-.color{
+
+.color {
     display: inline-block;
     background-color: red;
     font-size: 26px;
@@ -195,7 +217,7 @@ ul li {
 
 
 
-h1{
+h1 {
     background-color: black;
     color: white;
     text-align: center;
@@ -203,45 +225,54 @@ h1{
     font-size: 50px;
     padding: 40px;
 }
-.pastamainmenu{
+
+.pastamainmenu {
     background-color: black;
     padding: 76px;
 }
-.startersmainmenu{
+
+.startersmainmenu {
     background-color: black;
     padding: 76px;
 }
-.pastamenu{
+
+.pastamenu {
     background-color: black;
     border: 2px solid rgb(164, 163, 163);
 }
-.lasagna{
+
+.lasagna {
     height: 5em;
     border-bottom: 2px solid rgb(164, 163, 163);
     height: 134px;
     background-color: white;
 }
-.specialcolor{
+
+.specialcolor {
     background-color: rgb(159, 156, 156);
     display: inline-block;
     font-size: 26px;
 }
-.sphagetti{
+
+.sphagetti {
     height: 5em;
     height: 134px;
     background-color: white;
 }
-.startersmenu{
+
+.startersmenu {
     background-color: black;
     border: 2px solid rgb(164, 163, 163);
 }
-.soup{
+
+.soup {
     height: 5em;
     border-bottom: 2px solid rgb(164, 163, 163);
     height: 134px;
-    background-color: white;   
+    background-color: white;
 }
-.bread{
+
+.bread {
     height: 5em;
     height: 134px;
     background-color: white;
@@ -266,7 +297,7 @@ h1{
 
 
 
-.aboutmain{
+.aboutmain {
     background-color: rgb(238, 127, 127);
     color: white;
     font-size: 26px;
@@ -274,22 +305,26 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-#About{
+
+#About {
     background-color: rgb(238, 127, 127);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .aboutimg img {
-    width:100%;
+    width: 100%;
 }
-.aboutchef{
+
+.aboutchef {
     padding: 20px;
 }
 
-#Hours{
+#Hours {
     background-color: rgb(238, 127, 127);
     text-align: left;
 }
-.time{
+
+.time {
     display: flex;
     width: 60vw;
     justify-content: space-between;
@@ -307,40 +342,57 @@ h1{
 
 
 
-.contact{
+.contact {
     background-color: white;
 }
 
-.contactID{
+.contactID {
     background-color: rgb(157, 155, 155);
     text-align: left;
     margin-bottom: 20px;
 }
-.contact img{
+
+.contact img {
     width: 100%;
 }
-.contactdetails{
+
+.contactdetails {
     background-color: rgb(96, 97, 151);
 }
-.cntdet{
+
+.cntdet {
     font-size: 30px;
     padding: 20px;
 }
-.message{
+
+.message {
     background-color: white;
 }
 
-input[type="text"]
-{
-    font-size:40px;
+input[type="text"] {
+    font-size: 40px;
 }
 
 #search {
-    width: 20em;  height: 2em;
-}   
-.box{
-    
+    width: 20em;
+    height: 2em;
 }
-.submit{
-    padding: 20px;
+
+.box {
+    display: inline-block;
+    margin: 20px;
+    padding-left: 10px;
+    width: 95%;
+    margin-left: 10px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.submit {
+    display: inline-block;
+    margin: 20px;
+    padding-left: 10px;
+    width: 96%;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Qwitcher Grypen', cursive;
 }
