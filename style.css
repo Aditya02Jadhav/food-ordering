@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.756);
+    
+}
+img {
+    width: 50%;
+}
+.container {
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 700px;
+ 
+}
+.imagecontent p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+.btn{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: 2rem;
+    border-radius: 10000px;
+    box-shadow: 0px 5px white;
+}
+ul li {
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+.btn:active {
+    transform: translateY(2px);
+    box-shadow: 0px 3px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#Menuid{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn:hover a{
+    color: black;
+}
+
+.MainMenu{
+    background-color: black;
+    padding: 76px;
+}
+.Menu{ 
+    border: 2px solid rgb(68, 68, 68);
+}
+.Menunav {
+    display:flex;
+    height: 4rem;
+}
+
+.Pizza{
+    background: red;
+    color: white;
+    width: 100%;  
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+.Pasta{
+    color: white;
+    width: 100%;  
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+
+}
+.Pasta a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Starters{
+    color: white;
+    width: 100%;  
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+
+}
+.Pasta:hover{
+    background-color: red;  
+}
+.Starters:hover{
+    background-color: red;  
+}
+.margherita{
+    background-color: white;
+    color: black;
+    height: 5em;
+    border-bottom: 2px solid rgb(164, 163, 163);
+    height: 150px;
+}
+.right{
+    float: right;
+    border: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(129, 127, 127);
+    padding: 10px;
+}
+.left{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 26px;
+}
+.bottom{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(127, 122, 122);
+        font-size: 24px;
+        padding-top: 50px;
+}
+
+.leftMeat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 26px;
+    display: inline-block;
+}
+.color{
+    display: inline-block;
+    background-color: red;
+    font-size: 26px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding: 40px;
+}
+.pastamainmenu{
+    background-color: black;
+    padding: 76px;
+}
+.startersmainmenu{
+    background-color: black;
+    padding: 76px;
+}
+.pastamenu{
+    background-color: black;
+    border: 2px solid rgb(164, 163, 163);
+}
+.lasagna{
+    height: 5em;
+    border-bottom: 2px solid rgb(164, 163, 163);
+    height: 134px;
+    background-color: white;
+}
+.specialcolor{
+    background-color: rgb(159, 156, 156);
+    display: inline-block;
+    font-size: 26px;
+}
+.sphagetti{
+    height: 5em;
+    height: 134px;
+    background-color: white;
+}
+.startersmenu{
+    background-color: black;
+    border: 2px solid rgb(164, 163, 163);
+}
+.soup{
+    height: 5em;
+    border-bottom: 2px solid rgb(164, 163, 163);
+    height: 134px;
+    background-color: white;   
+}
+.bread{
+    height: 5em;
+    height: 134px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutmain{
+    background-color: rgb(238, 127, 127);
+    color: white;
+    font-size: 26px;
+    word-spacing: 0.134em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#About{
+    background-color: rgb(238, 127, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutimg img {
+    width:100%;
+}
+.aboutchef{
+    padding: 20px;
+}
+
+#Hours{
+    background-color: rgb(238, 127, 127);
+    text-align: left;
+}
+.time{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    background-color: white;
+}
+
+.contactID{
+    background-color: rgb(157, 155, 155);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact img{
+    width: 100%;
+}
+.contactdetails{
+    background-color: rgb(96, 97, 151);
+}
+.cntdet{
+    font-size: 30px;
+    padding: 20px;
+}
+.message{
+    background-color: white;
+}
+
+input[type="text"]
+{
+    font-size:40px;
+}
+
+#search {
+    width: 20em;  height: 2em;
+}   
+.box{
+    
+}
+.submit{
+    padding: 20px;
+}

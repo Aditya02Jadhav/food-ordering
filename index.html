@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering Web Site</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script>    
+    function greet()
+    {
+      let name = document.querySelector('#name').value; 
+      alert("hello "+name);
+    }
+  </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="overlay">
+            <div class="list">
+                <ul class="navbar">
+                    <li> <a href="#">Home</a> </li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Content</a></li>
+                </ul>
+            </div>
+            <div class="imagecontent">
+                <p>
+                    Thin
+                </p>
+                <p>
+                    Crust Pizza
+                </p>
+                <div class="btn">
+                    <a href="#Menuid">
+                        Let me see the Menu
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <h1 id="Menuid">The Menu</h1>
+
+    <div class="MainMenu">
+        <div class="Menu">
+            <div class="Menunav">
+                <div class="Pizza">
+                    <span>Pizza</span> 
+                </div>
+
+                <div class="Pasta">
+                    <a href="#pastaId">
+                        <span>Pasta</span>
+                    </a>
+                </div>
+
+                <div class="Starters">
+                    <a href="#startersId">
+                        <span>Starters</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="margherita">
+                <p class="right">$12.50</p>
+                <p class="left">Margherita</p>
+                <p class="bottom">Fresh Tomatoes, Fresh Mozzarella, Fresh Basil</p>
+            </div>
+
+            <div class="margherita">
+                <p class="right">$15.50</p>
+                <p class="left">Formaggio</p>
+                <p class="bottom">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            </div>
+
+            <div class="margherita">
+                <p class="right">$20.00</p>
+                <p class="leftMeat">Meat Town</p>
+                <p class="color">Hot!</p>
+                <p class="bottom">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <h1 id="pastaId">Pasta</h1>
+    <div class="pastamainmenu">
+        <div class="pastamenu">
+            <div class="lasagna">
+                <p class="right">$13.50</p>
+                <p class="leftMeat">Lasagna</p>
+                <p class="specialcolor">Popular!</p>
+                <p class="bottom">Special sauce, mozzarella, parmesan, ground beef</p>
+            </div>
+            <div class="lasagna">
+                <p class="right">$14.50</p>
+                <p class="left">Ravioli</p>
+                <p class="bottom">Ravioli filled with cheese</p>
+            </div>
+            <div class="sphagetti">
+                <p class="right">$11.00</p>
+                <p class="left">Spaghetti Classica</p>
+                <p class="bottom">Fresh tomatoes, onions, ground beef</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <h1 id="startersId">Starters</h1>
+    <div class="startersmainmenu">
+        <div class="startersmenu">
+            <div class="soup">
+                <p class="right">$5.50</p>
+                <p class="leftMeat">Today's Soup</p>
+                <p class="specialcolor">Popular!</p>
+                <p class="bottom">Ask the waiter</p>
+            </div>
+            <div class="soup">
+                <p class="right">$8.50</p>
+                <p class="left">Bruschetta</p>
+                <p class="bottom">Bread with pesto, tomatoes, onion, garlic</p>
+            </div>
+            <div class="bread">
+                <p class="right">$9.50</p>
+                <p class="left">Garlic Bread</p>
+                <p class="bottom">Grilled ciabatta, garlic butter, onions</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="aboutmain">
+        <h1 id="About">About</h1>
+        <div class="about">
+            <p class="aboutchef">
+                The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p class="aboutchef">The Chef? Mr. Italiano himselfChef</p>
+
+            <p class="aboutchef">We are proud of our interiors.</p>
+        </div>
+
+        <div class="aboutimg">
+            <img src="img_about.jpg" alt="">
+        </div>
+        <div class="hours">
+            <h1 id="Hours">Opening Hours</h1>
+
+            <div class="time">
+                <div class="timings">
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Wednesday 10.00 - 24.00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+                <div class="timings">
+                    <p>Friday 10:00 - 12:00</p>
+                    <p>Saturday 10:00 - 23:00</p>
+                    <p>Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contact">
+        <h1 class="contactID">
+            Add Contact
+        </h1>
+        
+        <img src="contact_img.jpg" alt="Map">
+    </div>
+
+    <div class="contactdetails">
+        <p class="cntdet">Find us at some [address] or call us at 05050515-122330</p>
+        <p class="cntdet">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p class="cntdet">Reserve a table, ask for today's special or just send us a message:</p>
+    </div>
+
+    <div class="message">
+        <form class="box" onsubmit =" greet(); return false;">
+            <input autocomplete = "off"; autofocus id = "name"; placeholder="What's your name?"; type="text">
+            
+            <input class="submit" type="Submit" value="Greet Me"> 
+        </form>
+    </div>
+</body>
+
+</html>
