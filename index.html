@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Food Ordering Web Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap" rel="stylesheet">
 
 
-    <script>    
-    function greet()
-    {
-      let name = document.querySelector('#name').value; 
-      alert("hello "+name);
-    }
-  </script>
+    <script>
+        function greet() {
+            let name = document.querySelector('#name').value;
+            alert("hello " + name);
+        }
+    </script>
 </head>
 
 <body>
@@ -57,7 +59,7 @@
         <div class="Menu">
             <div class="Menunav">
                 <div class="Pizza">
-                    <span>Pizza</span> 
+                    <span>Pizza</span>
                 </div>
 
                 <div class="Pasta">
@@ -200,23 +202,33 @@
         <h1 class="contactID">
             Add Contact
         </h1>
-        
+
         <img src="contact_img.jpg" alt="Map">
     </div>
 
     <div class="contactdetails">
         <p class="cntdet">Find us at some [address] or call us at 05050515-122330</p>
-        <p class="cntdet">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p class="cntdet">We offer full-service catering for any event, large or small. We understand your needs and we
+            will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
         <p class="cntdet">Reserve a table, ask for today's special or just send us a message:</p>
     </div>
 
     <div class="message">
-        <form class="box" onsubmit =" greet(); return false;">
-            <input autocomplete = "off"; autofocus id = "name"; placeholder="What's your name?"; type="text">
-            
-            <input class="submit" type="Submit" value="Greet Me"> 
+        <form onsubmit=" greet(); return false;">
+            <input class="box" autocomplete="off" ; id="name" ; placeholder="What's your name?" ; type="text">
+
+            <input class="box" autocomplete="off" ; id="name" ; placeholder="How Many People?" ; type="text">
+
+            <input class="box" autocomplete="off" ; id="name" ; placeholder="Enter Date you want to reserve seat" ;
+                type="text">
+
+            <input class="box" autocomplete="off" ; id="name" ; placeholder="Message / Special Requirements" ;
+                type="text">
+
+            <input class="submit" type="Submit" value="Send Message">
         </form>
     </div>
+
 </body>
 
 </html>
