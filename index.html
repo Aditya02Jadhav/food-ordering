@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Food Ordering Web Site</title>
+    <title>
+        Online Restaurant Menu and Table Reservation Website
+    </title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +17,10 @@
     <script>
         function greet() {
             let name = document.querySelector('#name').value;
-            alert("hello " + name);
+            alert("Thank you " + name + " for reserving table");
         }
     </script>
+
 </head>
 
 <body>
@@ -27,9 +30,9 @@
             <div class="list">
                 <ul class="navbar">
                     <li> <a href="#">Home</a> </li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Content</a></li>
+                    <li><a href="#Menuid">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="imagecontent">
@@ -58,7 +61,7 @@
     <div class="MainMenu">
         <div class="Menu">
             <div class="Menunav">
-                <div class="Pizza">
+                <div id="Pizza" class="Pizza">
                     <span>Pizza</span>
                 </div>
 
@@ -198,15 +201,12 @@
 
 
 
-    <div class="contact">
-        <h1 class="contactID">
-            Add Contact
-        </h1>
-
+    <div class="Contact">
         <img src="contact_img.jpg" alt="Map">
     </div>
 
     <div class="contactdetails">
+        <h1 id="contact">Contact</h1>
         <p class="cntdet">Find us at some [address] or call us at 05050515-122330</p>
         <p class="cntdet">We offer full-service catering for any event, large or small. We understand your needs and we
             will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
@@ -214,6 +214,7 @@
     </div>
 
     <div class="message">
+
         <form onsubmit=" greet(); return false;">
             <input class="box" autocomplete="off" ; id="name" ; placeholder="What's your name?" ; type="text">
 
