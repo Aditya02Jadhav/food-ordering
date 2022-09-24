@@ -14,17 +14,19 @@ a {
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.756);
-
+    position: fixed;
+    width: 100%;
 }
 
 img {
-    width: 50%;
+    width: 100%;
 }
 
 .container {
     background-image: url(pizza.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    height: 50rem;
 }
 
 .imagecontent {
@@ -34,7 +36,6 @@ img {
     flex-direction: column;
     color: white;
     height: 700px;
-
 }
 
 .imagecontent p {
@@ -63,6 +64,7 @@ ul li {
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.55);
+    height: inherit;
 }
 
 .btn:hover {
@@ -93,6 +95,7 @@ ul li {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
+    
 }
 
 .btn a {
@@ -346,31 +349,41 @@ h1 {
     background-color: white;
 }
 
-.contactID {
-    background-color: rgb(157, 155, 155);
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.contact img {
+.Contact img {
     width: 100%;
 }
 
 .contactdetails {
-    background-color: rgb(96, 97, 151);
+    background-color: rgb(115, 130, 146);
+}
+
+#contact{
+    background-color: rgb(115, 130, 146);
 }
 
 .cntdet {
     font-size: 30px;
     padding: 20px;
+    color: white;
 }
 
 .message {
     background-color: white;
+    font-size: 33px;
+    background-color: rgb(115, 130, 146);
+}
+
+.msgheader{
+    color: white;
+    padding-left: 1.2rem;
 }
 
 input[type="text"] {
-    font-size: 40px;
+    font-size: 28px;
+}
+
+input[type="Submit"] {
+    font-size: 20px;
 }
 
 #search {
@@ -380,19 +393,194 @@ input[type="text"] {
 
 .box {
     display: inline-block;
-    margin: 20px;
-    padding-left: 10px;
     width: 95%;
-    margin-left: 10px;
-    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.2rem 0rem 1.2rem 1.2rem;
 }
 
 .submit {
     display: inline-block;
-    margin: 20px;
-    padding-left: 10px;
-    width: 96%;
-    margin-left: 10px;
-    font-size: 40px;
-    font-family: 'Qwitcher Grypen', cursive;
+    margin: 1.2rem 0rem 1.2rem 1.2rem;
+    width: 95%;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media only screen and (max-width:800px) { 
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+.container{
+    width: 100%;
+    background-image: fill;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.imagecontent{
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 24px;
+}
+
+.Pizza{
+    padding-left: 0px;
+    width: auto;
+}
+.Pasta{
+    padding-left: 0px;
+    width: auto;
+}
+
+.Starters{
+    padding-left: 0px;
+    width: auto;
+}
+
+.MainMenu{
+    width: 100%;
+    margin-right: 2.45rem;
+    margin: 0;
+    padding: 0;
+
+}
+.Menu {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.Menunav{
+    flex-direction: column;
+    height: 12.5rem;
+}
+
+.box{
+    width: 80%;
+    margin-left: 1.2rem;
+    font-size: 20px;
+}
+
+
+.submit{
+    width: auto;
+    margin-left: 1.2rem;
+}
+
+.margherita{
+    height: 16rem;
+}
+
+.left{
+    font-size: 22px;
+}
+
+.right{
+    font-size: 22px;
+}
+
+.bottom{
+    font-size: 22px;
+}
+
+.pastamainmenu{
+    padding: 0.5rem;  
+    font-size: 20px;  
+}
+
+.lasagna{
+    height: 14rem;
+    font-size: 20px;
+}
+
+.sphagetti{
+    height: 13rem;
+    font-size: 20px;
+}
+
+.leftMeat{
+    font-size: 22px;
+}
+
+.specialcolor{
+    font-size: 20px;
+}
+
+.startersmainmenu{
+    padding: 0.5rem;    
+}
+
+.soup{
+    height: 13rem;
+    font-size: 20px;
+}
+
+.bread{
+    height: 13rem;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+}
+
+.timings{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+#Hours{
+    font-size: 34px;
+}
+
+.about{
+    font-size: 20px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+
+input[type="Submit"] {
+    font-size: 20px;
+}
+
+.cntdet{
+    font-size: 20px;
+}
+
 }
